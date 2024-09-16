@@ -1,0 +1,41 @@
+body{
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+#button{
+    
+    padding: 10px;
+    cursor: pointer;
+    border-style: outset;
+    border-radius: 10px;
+    color: aqua;
+    background-color: brown;
+
+}
+#div1 {
+    font-optical-sizing: auto;
+    font-weight: 200;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    background-image:url(./robot.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#button:hover{
+    background-color: rgb(120, 14, 219);
+}
